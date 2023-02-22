@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 
 import './App.css';
-import './Components/style.css'
+
 import { AnimeList } from "./Components/AnimeList";
 import { AnimeInfo } from "./Components/AnimeInfo";
 import { AddToList } from "./Components/AddToList";
