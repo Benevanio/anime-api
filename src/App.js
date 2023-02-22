@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import React, { useEffect } from 'react';
 
 function App() {
+  const [data, setData] = React.useState(null);
+  const getDate = async () => {
+    const response = await fetch('https://api.jikan.moe/v4/anime?q=Dragon ball&sfw');
+    const data = await response.json();
+    console.log(data);
+  }
+  useEffect(() => {
+    getDate();
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
     </div>
   );
 }
