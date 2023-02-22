@@ -34,6 +34,7 @@ Clone este projeto ou faça download!!
     
 ## Demonstração
 ![Captura de Tela (67)](https://user-images.githubusercontent.com/78994881/220764757-7330c07c-78fc-4421-b4c5-dd64f38e2503.png)
+![Captura de Tela (69)](https://user-images.githubusercontent.com/78994881/220765789-7cb263bc-9878-46da-8ff7-5b4ae07f1986.png)
 
 ## License
 
