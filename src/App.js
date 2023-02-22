@@ -1,12 +1,13 @@
 
 import './App.css';
-import React, { useEffect } from 'react';
+import React, { useEffect ,useState} from 'react';
 
 function App() {
-  const [data, setData] = React.useState(null);
+  const [animeData, setAnimeData] = useState([]);
   const getDate = async () => {
     const response = await fetch('https://api.jikan.moe/v4/anime?q=Dragon ball&sfw');
     const data = await response.json();
+    setAnimeData(data);
     console.log(data);
   }
   useEffect(() => {
