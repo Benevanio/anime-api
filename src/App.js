@@ -1,11 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 
 import './App.css';
-
-import { AnimeList } from "./Components/AnimeList";
-import { AnimeInfo } from "./Components/AnimeInfo";
-import { AddToList } from "./Components/AddToList";
-import { RemoveFromList } from "./Components/RemoveFromList";
+import  AnimeList  from "./Components/AnimeList";
+import  AnimeInfo  from "./Components/AnimeInfo";
+import  AddToList  from "./Components/AddToList";
+import  RemoveFromList  from "./Components/RemoveFromList";
 import React, { useEffect, useState } from 'react';
 
 function App() {

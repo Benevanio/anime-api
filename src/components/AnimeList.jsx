@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AnimeList = ({ animelist,setAnimeInfo,animeComponent,handleList}) => {
+const AnimeList = ({ animelist,setAnimeInfo,animeComponent,handleList}) => {
   const AddToList=animeComponent;
   return (
     <>
@@ -31,3 +31,5 @@ export const AnimeList = ({ animelist,setAnimeInfo,animeComponent,handleList}) =
     </>
   )
 }
+
+export default AnimeList

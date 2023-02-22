@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AddToList = () => {
+const AddToList = () => {
   return (
     <>
         <div className="mylist">
@@ -9,3 +9,5 @@ export const AddToList = () => {
     </>
   )
 }
+
+export default AddToList

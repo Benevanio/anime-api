@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AnimeInfo = (props) => {
+const AnimeInfo = ({props}) => {
     const { title, images: { jpg: { large_image_url } }, source, rank, score, popularity, members, status, rating, duration } = props.animeInfo
     return (
         <>
@@ -21,3 +21,5 @@ export const AnimeInfo = (props) => {
         </>
     )
 }
+
+export default AnimeInfo
